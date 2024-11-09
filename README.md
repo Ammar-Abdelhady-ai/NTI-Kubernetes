@@ -190,8 +190,9 @@ spec:
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Ammar-Abdelhady-ai/NTI-Kubernetes.git
+   cd NTI-Kubernetes
+
    ```
 
 2. **Create the Namespace and Resource Quota**
@@ -202,7 +203,7 @@ spec:
 3. **Deploy the Pods and Other Resources**
    You can apply each of the YAML files using the following command:
    ```bash
-   kubectl apply -f <file-name>.yml
+   kubectl apply -f deployment.yml
    ```
    For example:
    ```bash
