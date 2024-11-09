@@ -1,0 +1,1 @@
+اخر لاب بقي هتعملوا نفس لاب ال Docker Storage بس عن طريق pod with 3 containers اول 2 containers هيكونوا بيكتبوا علي فايل واحد  و ال container التالت هيعمل cat علي الفايل و ال volume هيكون ephemeral او persistent اي حاجه عادي
