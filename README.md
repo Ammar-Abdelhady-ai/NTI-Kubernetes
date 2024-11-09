@@ -190,8 +190,9 @@ spec:
 
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/Ammar-Abdelhady-ai/NTI-Kubernetes/](https://github.com/Ammar-Abdelhady-ai/NTI-Kubernetes.git)
-   cd <NTI-Kubernetes>
+   git clone https://github.com/Ammar-Abdelhady-ai/NTI-Kubernetes.git
+   cd NTI-Kubernetes
+
    ```
 
 2. **Create the Namespace and Resource Quota**
