@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis-pod
+spec:
+  initContainers:
+    - name: init-busybox
+      image: busybox
+  containers:
+    - name: redis
+      image: redis
